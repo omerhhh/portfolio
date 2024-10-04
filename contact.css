@@ -1,0 +1,50 @@
+/* Styling for Contact Me web page */
+
+h1{
+    color: white;
+    font-size: 48px;
+    font-family: 'Lucida Sans', sans-serif;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 270px;
+    padding-top: 10px;
+}
+.form{
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 350px;
+    font-family: Verdana, sans-serif;
+    color: white;
+    background: linear-gradient(132deg, rgb(2, 28, 122) 0.00%, rgb(36, 83, 255) 100.00%);
+    border: 3px solid blue; 
+    border-radius: 20px;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+}
+.contact-form label{
+    margin: 10px 0 5px;
+    font-weight: 200px;
+}
+.contact-form input, textarea{
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 95%;
+}
+.contact-form button{
+    padding: 10px; 
+    font-size: 16px;
+    background-color: rgb(4, 8, 1);
+    color: white;
+    width: 50%;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.contact-form button:hover{
+    background-color: rgb(37, 37, 37);
+}

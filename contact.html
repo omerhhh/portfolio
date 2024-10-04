@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Omer Hashmi</title>
+        <link rel="stylesheet" href="style.css"> 
+        <link rel="stylesheet" href="contact.css">
+    </head>
+    <body>
+        <nav class="navbar"> 
+            <div class="navdiv"> 
+                <div class="icon"><a href="index.html">Omer</a></div> 
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <h1>Contact Me</h1>
+        <div class="form">
+            <form action="#" method="POST" class="contact-form">
+                <!-- Input field for full name -->
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter name" required>
+
+                <!-- Input field for email address-->
+                <label for="email">Email Address</label>
+                <input type="text" id="email" name="email" placeholder="Enter email address" required>
+
+                <!-- Input field for phone number -->
+                <label for="phone">Phone Number</label>
+                <input type="text" id="phone" name="phone" placeholder="Enter phone number" required>
+                
+                <!-- Input field for message -->
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Question, comment, or query..." required></textarea>
+
+                <!-- Input field for security question -->
+                <label for="security">What is the first letter of the alphabet? (Prove you are a human)</label>
+                <input type="text" id="security" name="security" required>
+
+                <!-- Submit button for the form -->
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <footer>
+            <div class="footer">
+                <p class="footer-text">Contact Me: <a href="mailto:omer.hashmi@ontariotechu.net">omer.hashmi@ontariotechu.net</a></p>
+                <p class="footer-text">&copy; 2024 by Omer Hashmi</p>
+            </div>
+        </footer>
+    </body>
+</html>
