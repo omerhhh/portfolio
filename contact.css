@@ -26,7 +26,7 @@ h1{
 }
 .contact-form label{
     margin: 10px 0 5px;
-    font-weight: 200px;
+    font-weight: 200;
 }
 .contact-form input, textarea{
     padding: 10px;
